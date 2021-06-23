@@ -1,9 +1,35 @@
 .light-mode { 
     background: $light-color-bg;
     color: $light-color-t;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .dark-mode {
     background: $dark-color-bg;
     color: $dark-color-t;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
+
+/* @media (prefers-color-scheme: dark) {
+    body {
+        background: $dark-color-bg;
+        color: $dark-color-t;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background: $light-color-bg;
+        color: $light-color-t;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+} */
