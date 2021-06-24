@@ -8,7 +8,6 @@ export const Datatellers = () => {
     const [data, setData] = useState({
         number: 0,
         modo: true,
-        time: 0,
     })
 
     return (
