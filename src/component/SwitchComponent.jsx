@@ -14,6 +14,7 @@ export const SwitchComponent = () => {
         setModeDark(!modeDark)
         
         setData({
+            ...data,
             modo: modeDark,
             number: data.number + 1
         })
